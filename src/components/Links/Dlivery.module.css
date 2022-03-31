@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.title{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.3mm;
+    color: #5772FF;
+}
+
+.text_block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.text{
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 40px;
+}
+
+.text>h5{
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.3mm;
+    text-align: center;
+    color: #5772FF;
+    margin-bottom: 5px;
+}
+
+.text>p{
+    text-align: left;
+    font-family: "Comfortaa" sans-serif;
+    font-size: 16px;
+}
+
+.text>hr{
+    width: 450px;
+}
+

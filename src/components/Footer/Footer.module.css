@@ -1,0 +1,12 @@
+footer{
+    background: black;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+}
+
+.payment{
+    margin: 0 auto;
+}

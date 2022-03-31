@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.title{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.3mm;
+    color: #5772FF;
+}
+hr{
+    margin: 0 auto;
+    border: none;
+    background-color: #5772FF;
+    color: red;
+    height: 3px;
+    width: 700px;
+}
+
+/*text block*/
+.text_block{
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    flex-direction: row;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.text_block_img{
+    max-width: 500px;
+    width: 100%;
+}
+
+.text{
+    padding-top: 30px;
+    font-family: "Russo One";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.3mm;
+    text-align: left;
+    color: #000000;
+}
+
+.text>h3{
+    color: #5772FF;
+    font-size: 20px;
+}
+
+.cards{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card{
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 10px;
+    height: 350px;
+    width: 330px;
+
+
+    font-size: 14px;
+    text-align: center;
+}
+
+.card_img{
+    border-radius: 30px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+}
+
+
+.card>h5{
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.3mm;
+    text-align: center;
+    color: #5772FF;
+    margin-bottom: 5px;
+}
+.card>p{
+    font-family: "Comfortaa" sans-serif;
+    font-size: 14px;
+}
