@@ -15,12 +15,12 @@ export interface iProduct {
     inCart: boolean;
 }
 
-export interface IPostsState {
+export interface IProductsState {
     products: iProduct[];
     product: iProduct;
 }
 
-const defaultState: IPostsState = {
+const defaultState: IProductsState = {
     products: [],
     product: {
         id: 0,
@@ -40,7 +40,7 @@ export const cartReducer = (state = defaultState, action: any) => {
             return {
                 ...state,
                 products: state.products.map(product =>
-                    product.id === action.id ? {...product, inCart: true} : product,
+                    product.id === action.product? {...product, inCart: true} : product,
                 ),
             };
 

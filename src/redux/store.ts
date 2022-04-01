@@ -1,17 +1,14 @@
-import { createStore, combineReducers, applyMiddleware } from "redux";
+import { applyMiddleware, combineReducers, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import {cartReducer} from "./reducers/cartReducer";
-import createSagaMiddleware from "redux-saga";
+import thunk from "redux-thunk";
 
-export const rootReducer = combineReducers({
-    cart: cartReducer,
-});
+import {IProductsState, cartReducer,} from "./reducers/cartReducer";
 
-const sagaMiddleware = createSagaMiddleware();
+export interface IState {
+    postsReducer: IProductsState
+}
 
 export const store = createStore(
-  combineReducers(rootReducer),
-  composeWithDevTools(applyMiddleware(sagaMiddleware))
+    combineReducers({cartReducer}),
+    composeWithDevTools(applyMiddleware(thunk))
 );
-
-// sagaMiddleware.run();

@@ -5,7 +5,6 @@ import {Delivery} from "../components/Links/Delivery";
 import {Main} from "../components/Main/Main";
 import {Footer} from "../components/Footer/Footer";
 import {NavBar} from "../components/Navbar/Navbar";
-import {Intel} from "../components/Products/Intel";
 import {Basket} from "../components/Basket/Basket";
 import {Cpu} from "../components/Products/Cpu";
 
@@ -33,11 +32,6 @@ export function RootRouter() {
                 <Route
                     path="/cpu"
                     component={Cpu}
-                    exact
-                />
-                <Route
-                    path="/m"
-                    component={Intel}
                     exact
                 />
                 <Route

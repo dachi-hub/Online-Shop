@@ -1,14 +1,12 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import {Header} from "../components/Header/Header";
-import {About} from "../components/Links/About";
-import {Delivery} from "../components/Links/ Delivery";
-import {Main} from "../components/Main/Main";
-import {Footer} from "../components/Footer/Footer";
-import {Amd} from "../components/Products/Amd";
-import {NavBar} from "../components/Navbar/Navbar";
-import {Intel} from "../components/Products/Intel";
-import {Basket} from "../components/Basket/Basket";
-import {Cpu} from "../components/Products/Cpu";
+import {Header} from "../src/components/Header/Header";
+import {About} from "../src/components/Links/About";
+import {Delivery} from "../src/components/Links/Delivery";
+import {Main} from "../src/components/Main/Main";
+import {Footer} from "../src/components/Footer/Footer";
+import {NavBar} from "../src/components/Navbar/Navbar";
+import {Basket} from "../src/components/Basket/Basket";
+import {Cpu} from "../src/components/Products/Cpu";
 
 export function RootRouter() {
   return (
@@ -34,11 +32,6 @@ export function RootRouter() {
           <Route
               path="/cpu"
               component={Cpu}
-              exact
-          />
-          <Route
-              path="/m"
-              component={Intel}
               exact
           />
           <Route
