@@ -9,6 +9,8 @@
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     max-width: 350px;
     width: 100%;
@@ -16,15 +18,24 @@
     border-radius: 20px;
     background: #ffffff;
 }
-
-.card>p{
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.text>p{
     display: block;
     text-decoration:none;
     font-family: 'Russo One';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
-    padding: 5px;
+    margin: 5px;
 }
 
+.img_block{
+    margin: 0 auto;
+    max-width: 200px;
+    margin-top: auto;
+}

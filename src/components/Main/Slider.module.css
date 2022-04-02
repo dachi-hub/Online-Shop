@@ -1,0 +1,32 @@
+.container{
+    padding: 20px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.slider {
+    margin: 0 auto;
+    max-width: 600px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid black;
+    background: #ffffff;
+}
+
+.slider_img {
+    height: 600px;
+    transition: all 0.2s;
+}
+
+.slider_img_slider_img_prev {
+    margin: 0 auto;
+    transform: translateX(0);
+}
+
+.slider_img_slider_img_next{
+    margin: 0 auto;
+    transform: translateX(100%);
+}

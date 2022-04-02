@@ -6,35 +6,33 @@
 }
 
 .title{
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
+}
+
+.title>h2{
     font-family: "Russo One";
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
-    line-height: 30px;
     letter-spacing: 0.3mm;
+    text-align: center;
     color: #5772FF;
 }
 
-.text_block{
+.payment{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1200px;
+    justify-content: space-between;
     margin: 0 auto;
-    width: 100%;
 }
 
-.text{
-    margin: 0 auto;
-    max-width: 550px;
-    padding: 40px;
+.text_block{
+    margin: 0 30px;
+    max-width: 600px;
 }
 
-.text>h5{
+.text_block>h3{
+    margin-top: 35px;
     font-family: "Russo One";
     font-style: normal;
     font-weight: bold;
@@ -45,14 +43,26 @@
     margin-bottom: 5px;
 }
 
-.text>p{
+.text_block>p{
     text-align: left;
     font-family: "Comfortaa" sans-serif;
     font-size: 16px;
+    margin-bottom: 5px;
 }
 
-.text>hr{
-    width: 450px;
+.erip_container{
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
+.erip_block{
+    margin: 0 auto;
+    max-width: 800px;
+    justify-content: space-between;
+    display: flex;
+}
 
+.erip_container>h2{
+    color: #5772FF;
+}

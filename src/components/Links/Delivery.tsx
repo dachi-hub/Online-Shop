@@ -1,11 +1,9 @@
 import styles from "../Links/Dlivery.module.css";
-import {Back} from "../Button/Back";
 
 export const Delivery=()=>{
     // @ts-ignore
     return(
         <div className={styles.container}>
-            <Back/>
             <div className={styles.title}>
                 <h2>Доставка</h2>
             </div>

@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hr{
+    width: 550px;
+}
+
+.title{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.title>h2{
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.3mm;
+    text-align: center;
+    margin-top: 15px;
+    color: #5772FF;
+}
+
+.block{
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text_block{
+    max-width: 600px;
+}
+
+.text_block>h5{
+    margin: 0 auto;
+    padding: 5px;
+    font-family: "Comfortaa" sans-serif;
+    font-size: 20px;
+}
+
+.text_block>p{
+    text-align: left;
+    font-family: "Comfortaa" sans-serif;
+    font-size: 20px;
+    margin:20px;
+}
+.text_block>p>a{
+    text-decoration: none;
+}

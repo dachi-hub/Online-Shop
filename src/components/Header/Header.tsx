@@ -59,7 +59,7 @@ export const Header=()=>{
                     <p>Доставка</p>
                 </NavLink>
                 <NavLink
-                    to="/registration"
+                    to="/payment"
                     style={{
                         position: 'relative',
                         fontFamily:"Russo one",
@@ -75,23 +75,7 @@ export const Header=()=>{
                     <p>Оплата</p>
                 </NavLink>
                 <NavLink
-                    to="/registration"
-                    style={{
-                        position: 'relative',
-                        fontFamily:"Russo one",
-                        fontStyle: 'normal',
-                        fontWeight: 'bold',
-                        fontSize: '20px',
-                        lineHeight: '140%',
-                        letterSpacing: '0.03em',
-                        textTransform:"uppercase",
-                        color: linkColor,
-                    }}
-                >
-                    <p>Сервис</p>
-                </NavLink>
-                <NavLink
-                    to="/registration"
+                    to="/contacts"
                     style={{
                         position: 'relative',
                         fontFamily:"Russo one",
