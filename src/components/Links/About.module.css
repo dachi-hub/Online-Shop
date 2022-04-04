@@ -20,13 +20,12 @@
     font-size: 25px;
     line-height: 30px;
     letter-spacing: 0.3mm;
-    color: #5772FF;
+    color: #ffffff;
 }
 hr{
     margin: 0 auto;
     border: none;
-    background-color: #5772FF;
-    color: red;
+    background-color: #ffffff;
     height: 3px;
     width: 700px;
 }
@@ -54,11 +53,11 @@ hr{
     line-height: 30px;
     letter-spacing: 0.3mm;
     text-align: left;
-    color: #000000;
+    color: #ffffff;
 }
 
 .text>h3{
-    color: #5772FF;
+    color: #ffffff;
     font-size: 20px;
 }
 
@@ -101,10 +100,11 @@ hr{
     font-size: 20px;
     letter-spacing: 0.3mm;
     text-align: center;
-    color: #5772FF;
+    color: #ffffff;
     margin-bottom: 5px;
 }
 .card>p{
+    color: #ffffff;
     font-family: "Comfortaa" sans-serif;
     font-size: 14px;
 }

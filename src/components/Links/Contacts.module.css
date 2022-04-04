@@ -22,7 +22,7 @@
     letter-spacing: 0.3mm;
     text-align: center;
     margin-top: 15px;
-    color: #5772FF;
+    color: #ffffff;
 }
 
 .block{
@@ -38,6 +38,7 @@
 }
 
 .text_block>h5{
+    color: #ffffff;
     margin: 0 auto;
     padding: 5px;
     font-family: "Comfortaa" sans-serif;
@@ -45,6 +46,7 @@
 }
 
 .text_block>p{
+    color: #ffffff;
     text-align: left;
     font-family: "Comfortaa" sans-serif;
     font-size: 20px;

@@ -1,9 +1,12 @@
 import styles from "../Button/Button.module.css";
-export const Button=()=>{{
+interface IProps {
+    onClick?: () => void;
+}
 
-    return(
-        <div className={styles.wrap}>
-            <button className={styles.btn}>В корзину</button>
+export const Button = ({ onClick }: IProps) => {
+    return (
+        <div className={styles.wrap} onClick={onClick}>
+            <button className={styles.btn}>Добавить в корзину🛒</button>
         </div>
-    )
-}}
+    );
+};

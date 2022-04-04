@@ -7,10 +7,10 @@ import {Footer} from "../components/Footer/Footer";
 import {NavBar} from "../components/Navbar/Navbar";
 import {Basket} from "../components/Basket/Basket";
 import {Cpu} from "../components/Products/Cpu";
-import {Mb} from "../components/Products/Mb";
+import {MotherBoards} from "../components/Products/MotherBoards";
 import {Ram} from "../components/Products/Ram";
 import {Gpu} from "../components/Products/Gpu";
-import {Bp} from "../components/Products/Bp";
+import {BlockPower} from "../components/Products/BlockPower";
 import {Hdd} from "../components/Products/Hdd";
 import {Ssd} from "../components/Products/Ssd";
 import {Payment} from "../components/Links/Payment";
@@ -54,7 +54,7 @@ export function RootRouter() {
                 />
                 <Route
                     path="/mother-boards"
-                    component={Mb}
+                    component={MotherBoards}
                     exact
                 />
                 <Route
@@ -69,7 +69,7 @@ export function RootRouter() {
                 />
                 <Route
                     path="/bp"
-                    component={Bp}
+                    component={BlockPower}
                     exact
                 />
                 <Route

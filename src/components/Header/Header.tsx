@@ -1,7 +1,6 @@
-import {useState} from "react"
 import styles from "../Header/Header.module.css";
 import {NavLink} from "react-router-dom";
-import {Main} from "../Main/Main";
+
 
 let linkColor= "rgba(87, 114, 255, 1)"
 
@@ -36,6 +35,7 @@ export const Header=()=>{
                         fontSize: '20px',
                         lineHeight: '140%',
                         letterSpacing: '0.03em',
+                        textDecoration:"none",
                         textTransform:"uppercase",
                         color: linkColor,
                     }}
@@ -52,6 +52,7 @@ export const Header=()=>{
                         fontSize: '20px',
                         lineHeight: '140%',
                         letterSpacing: '0.03em',
+                        textDecoration:"none",
                         textTransform:"uppercase",
                         color: linkColor,
                     }}
@@ -68,6 +69,7 @@ export const Header=()=>{
                         fontSize: '20px',
                         lineHeight: '140%',
                         letterSpacing: '0.03em',
+                        textDecoration:"none",
                         textTransform:"uppercase",
                         color: linkColor,
                     }}
@@ -84,6 +86,7 @@ export const Header=()=>{
                         fontSize: '20px',
                         lineHeight: '140%',
                         letterSpacing: '0.03em',
+                        textDecoration:"none",
                         textTransform:"uppercase",
                         color: linkColor,
                     }}
@@ -101,10 +104,11 @@ export const Header=()=>{
                         lineHeight: '140%',
                         letterSpacing: '0.03em',
                         textTransform:"uppercase",
+                        textDecoration:"none",
                         color: linkColor,
                     }}
                 >
-                    <p>Корзина</p>
+                    <p>Корзина🛒</p>
                 </NavLink>
             </div>
 

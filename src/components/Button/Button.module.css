@@ -3,6 +3,8 @@
     padding: 10px;
     width: 350px;
     border: inherit;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
 }
 
 .wrap{

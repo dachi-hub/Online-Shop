@@ -1,7 +1,6 @@
 import styles from "../Links/Dlivery.module.css";
 
 export const Delivery=()=>{
-    // @ts-ignore
     return(
         <div className={styles.container}>
             <div className={styles.title}>

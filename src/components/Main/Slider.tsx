@@ -10,7 +10,7 @@ const img = [
         <img src="https://gaming4.cash/wp-content/uploads/2019/03/hyperx-logo-lrg.png" style={{width:"590px"}}/>
     </NavLink>,
     <NavLink to='/gpu'>
-        <img  src="http://toplogos.ru/images/logo-palit.png" style={{width:"600px"}}/>,
+        <img  src="http://toplogos.ru/images/logo-palit.png" style={{width:"600px"}}/>
     </NavLink>
 ]
 
@@ -23,7 +23,7 @@ export const Slider=()=>{
                 return res
             })
         }, 5000)
-        return () => clearInterval()
+        return () => clearInterval(interval)
     }, [])
     const prevImgIndex = activeIndex ? activeIndex - 1 : img.length - 1
     const nextImgIndex = activeIndex === img.length - 1 ? 0 : activeIndex + 1

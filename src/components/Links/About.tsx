@@ -1,7 +1,6 @@
 import styles from "../Links/About.module.css";
 
 export const About=()=>{
-    // @ts-ignore
     return(
             <div className={styles.container}>
                 <div className={styles.title}>

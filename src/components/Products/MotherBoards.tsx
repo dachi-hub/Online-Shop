@@ -1,11 +1,19 @@
-import styles from "../Products/Mb.module.css";
+import styles from "./MotherBoards.module.css";
 import {useState} from "react"
-import {mbData} from "../../data/mbData";
+import {motherBoardsData} from "../../data/motherBoardsData";
 import {Button} from "../Button/Button";
+import {useDispatch} from "react-redux";
+import {addToCart} from "../../redux/actions/cartActions";
 
-export const Mb=()=>{
-    const products=mbData
+export const MotherBoards=()=>{
+    const products=motherBoardsData
     const [objArr, setValue] = useState(products);
+    const dispatch = useDispatch();
+
+    const addToCartAction = (product: any) => {
+        console.log();
+        dispatch(addToCart(product));
+    };
     const result = objArr.map((product)=> {
         return(
             <div key={product.id} className={styles.card}>
@@ -13,13 +21,13 @@ export const Mb=()=>{
                     <img src={product.img} width={200} style={{padding:'10px'}}/>
                 </div>
                 <div className={styles.text}>
-                    <p>Материнская плата {product.name}</p>
+                    <p>{product.name}</p>
                     <p>Модель: {product.model}</p>
                     <p>Сокет: {product.socket} </p>
                     <p>Память: {product.ram} </p>
                     <p>Цена: {product.price} byn</p>
                 </div>
-                <Button/>
+                <Button onClick={() => addToCartAction(product)}/>
             </div>
         )
     });

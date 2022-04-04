@@ -16,7 +16,7 @@
     font-size: 25px;
     line-height: 30px;
     letter-spacing: 0.3mm;
-    color: #5772FF;
+    color: #ffffff;
 }
 
 .text_block{
@@ -41,7 +41,7 @@
     font-size: 20px;
     letter-spacing: 0.3mm;
     text-align: center;
-    color: #5772FF;
+    color: #ffffff;
     margin-bottom: 5px;
 }
 
@@ -49,10 +49,15 @@
     text-align: left;
     font-family: "Comfortaa" sans-serif;
     font-size: 16px;
+    color: #ffffff;
 }
 
 .text>hr{
     width: 450px;
 }
 
+.text>ul>li{
+    color: #ffffff;
+    text-align: left;
+}
 

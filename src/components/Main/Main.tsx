@@ -1,6 +1,4 @@
-import React from 'react';
 import styles from "../Main/Main.module.css";
-import {NavLink} from "react-router-dom";
 import {Slider} from "./Slider";
 import {Ssd} from "../Products/Ssd";
 
