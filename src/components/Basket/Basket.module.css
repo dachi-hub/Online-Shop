@@ -47,12 +47,42 @@ body{
     margin: 2px;
 }
 
+.btns>button{
+    margin: 10px;
+}
+
 .btnClear{
-    margin-left: 10px;
+    font-family:"Russo one";
+    font-size: 14px;
     bottom: 0;
-    background: lightgreen;
+    color: white;
+    background: #4f4f4f;
     padding: 10px;
     width: 350px;
     border: inherit;
+    border-radius: 30px;
+    transition: 0.3s ease all;
 }
 
+.btnClear:hover{
+    color: black;
+    background: #ea1818;
+}
+
+.btnModal{
+    font-family:"Russo one";
+    font-size: 14px;
+    color: white;
+    bottom: 0;
+    background: #4f4f4f;
+    padding: 10px;
+    width: 350px;
+    border: inherit;
+    border-radius: 30px;
+    transition: 0.3s ease all;
+}
+
+.btnModal:hover{
+    background: lightgreen;
+    color: black;
+}
