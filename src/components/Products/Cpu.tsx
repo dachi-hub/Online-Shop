@@ -8,14 +8,13 @@
 
  export const Cpu=()=>{
      const products=cpuData
-     const [productsArr, setValue] = useState(products);
      const dispatch = useDispatch();
 
      const addToCartAction = (product: any) => {
          console.log();
          dispatch(addToCart(product));
      };
-     const result = productsArr.map((product)=> {
+     const result = products.map((product)=> {
          return(
                  <div key={product.id} className={styles.card}>
                      <img src={product.img} width={200} style={{padding:'5px'}}/>

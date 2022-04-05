@@ -1,5 +1,4 @@
 import styles from "./MotherBoards.module.css";
-import {useState} from "react"
 import {motherBoardsData} from "../../data/motherBoardsData";
 import {Button} from "../Button/Button";
 import {useDispatch} from "react-redux";
@@ -7,14 +6,13 @@ import {addToCart} from "../../redux/actions/cartActions";
 
 export const MotherBoards=()=>{
     const products=motherBoardsData
-    const [objArr, setValue] = useState(products);
     const dispatch = useDispatch();
 
     const addToCartAction = (product: any) => {
         console.log();
         dispatch(addToCart(product));
     };
-    const result = objArr.map((product)=> {
+    const result = products.map((product)=> {
         return(
             <div key={product.id} className={styles.card}>
                 <div className={styles.img_block}>

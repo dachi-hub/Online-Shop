@@ -7,14 +7,13 @@ import {addToCart} from "../../redux/actions/cartActions";
 
 export const Ram=()=>{
     const products=ramData
-    const [objArr, setValue] = useState(products);
     const dispatch = useDispatch();
 
     const addToCartAction = (product: any) => {
         console.log();
         dispatch(addToCart(product));
     };
-    const result = objArr.map((product)=> {
+    const result = products.map((product)=> {
         return(
             <div key={product.id} className={styles.card}>
                 <img src={product.img} width={250} style={{padding:'10px'}}/>
