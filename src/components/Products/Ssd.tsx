@@ -1,5 +1,4 @@
 import styles from "../Products/Ssd.module.css";
-import {useState} from "react"
 import {ssdData} from "../../data/ssdData";
 import {Button} from "../Button/Button";
 import {useDispatch} from "react-redux";

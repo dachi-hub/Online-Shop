@@ -1,5 +1,4 @@
 import styles from "../Products/Hdd.module.css";
-import {useState} from "react"
 import {hddData} from "../../data/hddData";
 import {Button} from "../Button/Button";
 import {useDispatch} from "react-redux";

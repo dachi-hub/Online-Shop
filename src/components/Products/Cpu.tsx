@@ -1,5 +1,4 @@
  import styles from "../Products/Cpu.module.css";
- import {useState} from "react"
  import {cpuData} from "../../data/cpuData";
  import {Button} from "../Button/Button";
  import { useDispatch } from "react-redux";

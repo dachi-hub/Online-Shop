@@ -1,5 +1,4 @@
 import styles from "../Products/Gpu.module.css";
-import {useState} from "react"
 import {Button} from "../Button/Button";
 import {gpuData} from "../../data/gpuData";
 import {useDispatch} from "react-redux";

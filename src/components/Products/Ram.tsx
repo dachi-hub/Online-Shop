@@ -1,5 +1,4 @@
 import styles from "../Products/Ram.module.css";
-import {useState} from "react"
 import {ramData} from "../../data/ramData";
 import {Button} from "../Button/Button";
 import {useDispatch} from "react-redux";
